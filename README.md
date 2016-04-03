@@ -1,7 +1,8 @@
 # Set-Viewport-height
 jQuery Function to calculate browser viewport for fullscreen
 
-'''javascript
+'''
+"""
 
 getWidthAndHeight();
 
@@ -16,5 +17,5 @@ function getWidthAndHeight (){
     var headerHeight = jQuery('header').height(); 
     jQuery('.fullscreen').css({'width': winWidth,'height': winHeight - headerHeight,});
 }
-
+"""
 '''
